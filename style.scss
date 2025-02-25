@@ -1,0 +1,36 @@
+main{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    form{
+        width: 100%;
+        display: flex;
+        gap: 5px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        #btn{
+            width: 5%;
+            transition: all .3s;
+            font-weight: bold;
+            cursor: pointer;
+            &:hover{
+                background-color: violet;
+                color: aliceblue;
+            }
+        }
+        input {
+            width: 20%;
+            height: 30px;
+            border: 3px solid blueviolet;
+            transition: all .3s;
+            border-radius: 5px;
+
+            &:focus{
+                width: 25%;
+                box-shadow: 0 0 12px 0 violet;
+            }
+        }
+    }
+}
