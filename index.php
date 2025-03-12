@@ -10,7 +10,8 @@
     <main>
         <form action="io.php" method="post">
             <h1 style="font-family: arial;">Email</h1>
-            <input id="email" type="email" name="email" placeholder="Digite seu email:" id="email">
+            <input id="nome" type="text" name="nome" placeholder="Digite seu nome:">
+            <input id="email" type="email" name="email" placeholder="Digite seu email:">
             <input id="btn" type="submit" name="enviar" value="Enviar" />
         </form>
     </main>
